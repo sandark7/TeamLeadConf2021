@@ -1,0 +1,257 @@
+li,
+th,
+td {
+  font-family: 'PT Mono', sans-serif;
+}
+h3 {
+  font-family: 'PT Mono', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  color: #3f56cb;
+}
+blockquote {
+  font-family: 'PT Mono', sans-serif;
+  color: #3f56cb;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+blockquote:before {
+  font-family: 'PT Sans';
+}
+.nosign li {
+  font-family: 'PT Mono', sans-serif;
+}
+.nosign li:before {
+  visibility: hidden;
+}
+.slide::after {
+  background: none;
+  height: 75px;
+  min-width: 55px;
+  color: #3f56cb;
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  padding-top: 0;
+  padding-right: 5px;
+  margin-left: 30px;
+}
+.slide.rbn::after {
+  background: #dfe4e5;
+}
+.slide::before {
+  position: absolute;
+  top: 75px;
+  right: 100px;
+  height: 50px;
+}
+.slide {
+  padding-top: 60px;
+}
+.slide.right {
+  padding-left: 550px;
+}
+.slide h2 {
+  color: #000;
+  font-family: 'PT Mono', sans-serif;
+  font-weight: 100;
+  letter-spacing: -3px;
+}
+.slide a {
+  color: #008000;
+}
+.slide a.bottom {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  margin-left: -100px;
+}
+.html {
+  color: #666;
+}
+.hightlight,
+.important,
+.alert {
+  border-radius: 0.2em;
+  padding: 0.1em 0.3em;
+}
+.hightlight {
+  background: #fafaa2;
+}
+.hightlight * {
+  color: #000 !important;
+}
+.important {
+  background: important-color;
+  color: #fff;
+}
+.important * {
+  color: #fff !important;
+}
+.alert {
+  background: #d10a0a;
+  color: #fff;
+}
+.alert * {
+  color: #fff !important;
+}
+.comment {
+  color: #999;
+}
+.progress:before {
+  background: #3f56cb;
+}
+.tag {
+  color: #ad1531;
+}
+.attr {
+  color: #4f7302;
+}
+.slide .shout.smaller {
+  font-size: 90px;
+}
+.slide .shout.smaller a {
+  color: #fff;
+}
+.slide.menu-slide h2 {
+  font-size: 120px;
+  margin-bottom: 0;
+  padding: 0 30px;
+}
+.slide.menu-slide ul {
+  color: #fff;
+}
+.slide.menu-slide ul > li {
+  font-size: 120px;
+  line-height: 1;
+  font-weight: bold;
+  padding: 0 30px;
+}
+.slide.menu-slide ul > li:before {
+  opacity: 0;
+}
+.slide.menu-slide .selected-item {
+  background-color: #3f56cb;
+  display: inline-block;
+}
+.slide.menu-slide .transparent {
+  opacity: 0.25;
+}
+.slide.label-header h2 {
+  display: inline-block;
+  background-color: #dfe4e5;
+  padding: 10px 15px 15px;
+  font-family: 'PT Mono', sans-serif;
+  font-size: 44px;
+  letter-spacing: -3px;
+}
+.slide.label-header h2.shout {
+  margin-left: 0;
+  padding: 20px 0 30px;
+  font-size: 62px;
+  border: 1px solid #3f56cb;
+  background: none;
+  letter-spacing: -1px;
+}
+.slide.label-header.bg h2 {
+  background: none;
+  padding: 10px 0 15px;
+}
+.slide.capture h2.shout {
+  font-size: 64px;
+}
+.slide.top-center h2.shout {
+  margin-left: 150px;
+  margin-top: -120px;
+}
+.slide h2 .label {
+  color: #fff;
+  padding: 10px 40px;
+  font-size: 120px;
+}
+.slide h2 .label.right {
+  float: right;
+}
+.slide p.center {
+  text-align: center;
+}
+.slide p.center img {
+  max-width: 100%;
+}
+.slide.white p,
+.slide.white ul,
+.slide.white td {
+  color: #fff;
+}
+.slide.bgblack {
+  background: #000;
+}
+blockquote {
+  font-size: 35px;
+  line-height: 1.4;
+}
+figcaption {
+  opacity: 0.5;
+  position: relative;
+  line-height: 1.6;
+  margin-top: 40px !important;
+}
+.label {
+  background-color: #3f56cb;
+  color: #fff;
+  padding: 0 10px;
+  display: inline-block;
+}
+.screen-example {
+  vertical-align: top;
+  float: right;
+  border: 1px solid #efefef;
+  padding-top: 10px;
+  width: 700px;
+}
+.relative {
+  position: relative;
+}
+.slide ol.no-indent li,
+.slide ul.no-indent li {
+  text-indent: 0;
+  margin-bottom: 5px;
+}
+.frame {
+  box-shadow: 0 0 5px 5px #eee;
+  line-height: 0;
+  border-radius: 15px 15px 0 0;
+}
+.frame .title {
+  background-color: #efefef;
+  height: 30px;
+  border-radius: 15px 15px 0 0;
+  border: 1px solid #aaa;
+  border-bottom-width: 0;
+  line-height: 24px;
+  padding-left: 15px;
+}
+.frame .btn {
+  height: 13px;
+  width: 13px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.frame .btn.close {
+  background-color: #f00;
+}
+.frame .btn.hide {
+  background-color: #ff0;
+}
+.frame .btn.expand {
+  background-color: #008000;
+}
+.fade-opacity {
+  opacity: 0.25;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.bold {
+  font-weight: bold;
+}

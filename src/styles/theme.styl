@@ -1,0 +1,237 @@
+// main-color = #A9C6CD
+main-color = #3F56CB
+extra-color = rgb(223, 228, 229)
+li, th, td
+	font-family 'PT Mono', sans-serif
+
+h3
+	font-family 'PT Mono', sans-serif
+	font-weight 100
+	font-style italic
+	color main-color
+
+blockquote
+	font-family 'PT Mono', sans-serif
+	color main-color
+	font-weight 100
+	letter-spacing -1px
+	&:before
+		font-family 'PT Sans'
+	
+	
+.nosign
+	li
+		font-family 'PT Mono', sans-serif
+		&:before
+			visibility hidden
+		
+.slide::after
+	background none
+	height 75px
+	min-width 55px
+	color main-color
+	font-family 'IBM Plex Mono', sans-serif
+	font-size 40px
+	font-style italic
+	padding-top 0
+	padding-right 5px
+	margin-left 30px
+
+.slide.rbn::after
+	background extra-color
+	
+.slide::before
+	position absolute
+	top 75px
+	right 100px
+	height 50px
+.slide
+	padding-top 60px
+	&.right
+		padding-left 550px
+	h2
+		color #000
+		font-family 'PT Mono', sans-serif
+		font-weight 100
+		letter-spacing: -3px
+	a
+		color green
+		&.bottom
+			position absolute
+			bottom 15%
+			left 50%
+			margin-left: -100px
+
+.html
+	color #666
+
+.hightlight
+.important
+.alert
+	border-radius 0.2em
+	padding 0.1em 0.3em
+.hightlight
+	background #fafaa2
+.hightlight *
+	color #000 !important
+.important
+	background important-color
+	color #fff
+.important *
+	color #fff !important
+.alert
+	background #D10A0A
+	color #fff
+.alert *
+	color #fff !important
+.comment
+	color #999999
+	
+.progress:before
+	background main-color
+	
+.tag
+	color #AD1531
+.attr
+	color #4F7302
+
+.slide
+	.shout.smaller
+		font-size 90px
+		a
+			color #fff
+	&.menu-slide
+		h2
+			font-size 120px
+			margin-bottom 0
+			padding 0 30px
+		ul
+			color #FFF
+			& > li
+				font-size 120px
+				line-height 1
+				font-weight bold
+				padding 0 30px
+				&:before
+					opacity 0
+			
+		.selected-item
+			background-color main-color
+			display inline-block
+			
+		.transparent
+			opacity 0.25
+	&.label-header
+		h2
+			display inline-block
+			background-color extra-color
+			padding 10px 15px 15px
+			font-family 'PT Mono', sans-serif
+			font-size 44px
+			letter-spacing -3px
+			&.shout
+				margin-left 0
+				padding 20px 0 30px
+				font-size 62px
+				border 1px solid main-color
+				background none
+				letter-spacing -1px
+		&.bg
+			h2
+				background none
+				padding 10px 0 15px
+	&.capture
+		h2
+			&.shout
+				font-size 64px;
+
+	&.top-center
+		h2
+			&.shout
+				margin-left: 150px
+				margin-top: -120px
+
+	h2 .label
+		color #FFF
+		padding 10px 40px
+		font-size 120px
+		&.right 
+			float right
+		
+	p.center
+		text-align center
+		img
+			max-width 100%
+		
+	&.white
+		p
+		ul
+		td
+			color #FFF
+	
+	&.bgblack
+		background black
+
+blockquote
+	font-size 35px	
+	line-height 1.4
+	
+figcaption
+	opacity 0.5
+	position: relative
+	line-height: 1.6
+	margin-top: 40px !important
+
+.label
+	background-color main-color
+	color #fff
+	padding 0 10px
+	display inline-block
+
+.screen-example
+	vertical-align top
+	float right
+	border 1px solid #efefef
+	padding-top 10px
+	width 700px
+	
+.relative
+	position relative
+
+	
+.slide ol.no-indent li, .slide ul.no-indent li
+	text-indent 0
+	margin-bottom 5px
+	
+.frame
+	box-shadow 0 0 5px 5px #eee
+	line-height 0
+	border-radius 15px 15px 0 0
+	.title
+		background-color #efefef
+		height 30px
+		border-radius 15px 15px 0 0
+		border 1px solid #aaa
+		border-bottom-width 0
+		line-height 24px
+		padding-left 15px
+	.btn
+		height 13px
+		width 13px
+		display inline-block
+		border-radius 50%
+		&.close
+			background-color red
+		&.hide
+			background-color yellow
+		&.expand
+			background-color green
+	
+.fade-opacity
+	opacity 0.25
+.opacity-0
+	opacity 0
+	
+
+.bold
+	font-weight: bold
