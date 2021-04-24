@@ -70,3 +70,10 @@ td.green {
 .gray {
   color: #808080;
 }
+.slide li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.slide li.active span {
+  border-bottom: 1px solid #005dac;
+}

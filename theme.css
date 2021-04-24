@@ -4,14 +4,14 @@ td {
   font-family: 'PT Mono', sans-serif;
 }
 h3 {
-  font-family: 'PT Mono', sans-serif;
+  font-family: 'Artegra Sans Regular', sans-serif;
   font-weight: 100;
   font-style: italic;
-  color: #3f56cb;
+  color: #005dac;
 }
 blockquote {
   font-family: 'PT Mono', sans-serif;
-  color: #3f56cb;
+  color: #005dac;
   font-weight: 100;
   letter-spacing: -1px;
 }
@@ -28,7 +28,7 @@ blockquote:before {
   background: none;
   height: 75px;
   min-width: 55px;
-  color: #3f56cb;
+  color: #005dac;
   font-family: 'IBM Plex Mono', sans-serif;
   font-size: 40px;
   font-style: italic;
@@ -37,7 +37,7 @@ blockquote:before {
   margin-left: 30px;
 }
 .slide.rbn::after {
-  background: #dfe4e5;
+  background: #fec01e;
 }
 .slide::before {
   position: absolute;
@@ -99,7 +99,7 @@ blockquote:before {
   color: #999;
 }
 .progress:before {
-  background: #3f56cb;
+  background: #005dac;
 }
 .tag {
   color: #ad1531;
@@ -131,7 +131,7 @@ blockquote:before {
   opacity: 0;
 }
 .slide.menu-slide .selected-item {
-  background-color: #3f56cb;
+  background-color: #005dac;
   display: inline-block;
 }
 .slide.menu-slide .transparent {
@@ -139,7 +139,7 @@ blockquote:before {
 }
 .slide.label-header h2 {
   display: inline-block;
-  background-color: #dfe4e5;
+  background-color: #fec01e;
   padding: 10px 15px 15px;
   font-family: 'PT Mono', sans-serif;
   font-size: 44px;
@@ -149,7 +149,7 @@ blockquote:before {
   margin-left: 0;
   padding: 20px 0 30px;
   font-size: 62px;
-  border: 1px solid #3f56cb;
+  border: 1px solid #005dac;
   background: none;
   letter-spacing: -1px;
 }
@@ -197,7 +197,7 @@ figcaption {
   margin-top: 40px !important;
 }
 .label {
-  background-color: #3f56cb;
+  background-color: #005dac;
   color: #fff;
   padding: 0 10px;
   display: inline-block;
