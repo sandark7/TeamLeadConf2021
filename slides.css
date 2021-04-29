@@ -77,3 +77,9 @@ td.green {
 .slide li.active span {
   border-bottom: 1px solid #005dac;
 }
+.svg-logo {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  width: 100px;
+}
